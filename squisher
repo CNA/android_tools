@@ -122,4 +122,9 @@ cat $img.md5sum
 echo
 )
 
+echo
+echo "Uploading File: $OUTFILE"
+cp $OUTFILE /Volumes/CNAGOO/public_html/nightlies/$TARGET_PRODUCT/
+echo
+
 exit 0
